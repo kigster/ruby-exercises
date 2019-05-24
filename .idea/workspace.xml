@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56afcbf0-e95e-44bc-ba8f-7495335f2ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binary_tree/lib/binary_node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/lib/node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/lib/tree.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/lib/tree_traversal.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/spec/node_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/spec/tree_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/spec/tree_traversal_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_based/lib/tree/node.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/lib/binary_node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/tree/node_binary.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/lib/node.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/lib/tree.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/tree/tree.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/lib/tree_traversal.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/spec/node_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/tree/node_binary_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/spec/tree_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/tree/tree_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/spec/tree_traversal_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/tree/tree_traversal_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,44 +35,44 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/graph/graph.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24">
-                  <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binary_tree/lib/node.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
-                  <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binary_tree/spec/node_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binary_tree/spec/tree_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
-                  <caret line="12" selection-start-line="12" selection-end-line="13" />
+                  <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binary_tree/lib/tree.rb">
+            <entry file="file://$PROJECT_DIR$/node_based/lib/tree/node.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                <state relative-caret-position="150">
+                  <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_based/spec/tree/node_binary_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/node_based/spec/tree/tree_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="725">
+                  <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_based/lib/tree/tree.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
                 </state>
               </provider>
             </entry>
@@ -80,7 +80,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/rspec-core-3.8.0/lib/rspec/core/hooks.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2368">
+                <state relative-caret-position="14800">
                   <caret line="592" selection-start-line="592" selection-end-line="592" />
                 </state>
               </provider>
@@ -89,35 +89,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/rspec-core-3.8.0/lib/rspec/core/example.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
+                <state relative-caret-position="6375">
                   <caret line="255" selection-start-line="255" selection-end-line="255" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binary_tree/lib/binary_node.rb">
+            <entry file="file://$PROJECT_DIR$/node_based/lib/tree/node_binary.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="400">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binary_tree/lib/tree_traversal.rb">
+            <entry file="file://$PROJECT_DIR$/node_based/spec/tree/tree_traversal_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="16" selection-start-column="16" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binary_tree/spec/tree_traversal_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="100">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -125,17 +116,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sorted_file/lib/sorted_file.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1087">
+                <state relative-caret-position="1100">
                   <caret line="44" selection-start-line="44" selection-end-line="44" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sorted_file/spec/sorted_file_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1187">
-                  <caret line="54" selection-start-line="54" selection-end-line="54" />
+                <state relative-caret-position="100">
+                  <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -144,20 +135,43 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/binary_tree/lib/node.rb">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/graph/graph.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="625">
-                  <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+                <state relative-caret-position="150">
+                  <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binary_tree/lib/tree.rb">
+            <entry file="file://$PROJECT_DIR$/node_based/lib/tree/node.rb">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/node_based/spec/tree/node_binary_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16">
+                <state relative-caret-position="100">
+                  <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_based/lib/tree/tree.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
                   <caret line="4" selection-start-line="4" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_based/lib/tree/node_binary.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -178,10 +192,12 @@
       <find>ticker_tuple.</find>
       <find>add</find>
       <find>a_node</find>
+      <find>value</find>
     </findStrings>
     <replaceStrings>
       <replace>append</replace>
       <replace>node</replace>
+      <replace>data</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -190,11 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lru/lru.rb" />
-        <option value="$PROJECT_DIR$/lru/lru_cache.rb" />
-        <option value="$PROJECT_DIR$/hottest_temp/location_weather_spec.rb" />
-        <option value="$PROJECT_DIR$/hottest_temp/location_weather.rb" />
-        <option value="$PROJECT_DIR$/hottest_temp/location_parser_spec.rb" />
         <option value="$PROJECT_DIR$/hottest_temp/spec/location_parser_spec.rb" />
         <option value="$PROJECT_DIR$/hottest_temp/spec/location_weather_spec.rb" />
         <option value="$PROJECT_DIR$/hottest_temp/location_parser.rb" />
@@ -221,6 +232,16 @@
         <option value="$PROJECT_DIR$/binary_tree/spec/tree_traversal_spec.rb" />
         <option value="$PROJECT_DIR$/sorted_file/lib/sorted_file.rb" />
         <option value="$PROJECT_DIR$/sorted_file/spec/sorted_file_spec.rb" />
+        <option value="$PROJECT_DIR$/node_based/lib/node.rb" />
+        <option value="$PROJECT_DIR$/node_based/lib/node_binary.rb" />
+        <option value="$PROJECT_DIR$/node_based/lib/tree/tree_traversal.rb" />
+        <option value="$PROJECT_DIR$/node_based/spec/tree/tree_traversal_spec.rb" />
+        <option value="$PROJECT_DIR$/node_based/spec/tree/node_spec.rb" />
+        <option value="$PROJECT_DIR$/node_based/spec/tree/node_binary_spec.rb" />
+        <option value="$PROJECT_DIR$/node_based/lib/tree/node.rb" />
+        <option value="$PROJECT_DIR$/node_based/lib/tree/node_binary.rb" />
+        <option value="$PROJECT_DIR$/node_based/lib/tree/tree.rb" />
+        <option value="$PROJECT_DIR$/node_based/spec/tree/tree_spec.rb" />
       </list>
     </option>
   </component>
@@ -255,19 +276,38 @@
             <path>
               <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="interviews" type="462c0819:PsiDirectoryNode" />
-              <item name="binary_tree" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="interviews" type="462c0819:PsiDirectoryNode" />
-              <item name="binary_tree" type="462c0819:PsiDirectoryNode" />
+              <item name="node_based" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviews" type="462c0819:PsiDirectoryNode" />
+              <item name="node_based" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="interviews" type="462c0819:PsiDirectoryNode" />
-              <item name="binary_tree" type="462c0819:PsiDirectoryNode" />
+              <item name="node_based" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviews" type="462c0819:PsiDirectoryNode" />
+              <item name="node_based" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviews" type="462c0819:PsiDirectoryNode" />
+              <item name="node_based" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
@@ -304,17 +344,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/binary_tree" />
-      <recent name="$PROJECT_DIR$/hottest_temp/spec" />
-      <recent name="$PROJECT_DIR$/hottest_temp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/binary_tree/spec" />
       <recent name="$PROJECT_DIR$/binary_tree/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node_based/spec/tree" />
+      <recent name="$PROJECT_DIR$/node_based/lib/tree" />
+      <recent name="$PROJECT_DIR$/node_based/lib" />
+      <recent name="$PROJECT_DIR$/binary_tree" />
+      <recent name="$PROJECT_DIR$/hottest_temp/spec" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,12 +371,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.SortedFile: interviews">
-    <configuration name="BinaryNode: interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.All specs in spec: interviews">
+    <configuration name="All specs in spec: interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="interviews" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/binary_tree" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/node_based" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/node_based/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NodeBinary: interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <module name="interviews" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/node_based" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -349,10 +424,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/binary_tree/spec/tree_traversal_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/node_based/spec/tree/node_binary_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BinaryNode" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="NodeBinary" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -363,11 +438,11 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Node: interviews (1)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Run spec 'node_binary_spec': interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="interviews" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/binary_tree" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/node_based" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -382,43 +457,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/binary_tree/spec/tree_traversal_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/node_based/spec/tree/node_binary_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Node" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Node: interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <module name="interviews" />
-      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/binary_tree" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/binary_tree/spec/node_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Node" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -462,11 +504,11 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="TreeTraversal: interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Tree: interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="interviews" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/binary_tree" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/node_based" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -481,10 +523,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/binary_tree/spec/tree_traversal_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/node_based/spec/tree/tree_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="TreeTraversal" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Tree" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -497,11 +539,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.All specs in spec: interviews" />
+        <item itemvalue="RSpec.Tree: interviews" />
+        <item itemvalue="RSpec.NodeBinary: interviews" />
+        <item itemvalue="RSpec.Run spec 'node_binary_spec': interviews" />
         <item itemvalue="RSpec.SortedFile: interviews" />
-        <item itemvalue="RSpec.BinaryNode: interviews" />
-        <item itemvalue="RSpec.Node: interviews (1)" />
-        <item itemvalue="RSpec.TreeTraversal: interviews" />
-        <item itemvalue="RSpec.Node: interviews" />
       </list>
     </recent_temporary>
   </component>
@@ -517,35 +559,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 19m 24s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 19m 19s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 19m 41s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 20m 17s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 19m 52s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 20m 35s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 20m 30s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 21m 18s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 20m 41s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="NodeBinary__interviews - 2019.05.23 at 23h 21m 50s.xml">
+      <configuration name="NodeBinary: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 21m 19s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 21m 57s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 21m 26s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 23m 40s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 22m 32s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 24m 02s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 23m 23s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 24m 56s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="BinaryNode__interviews - 2019.05.23 at 00h 23m 27s.xml">
-      <configuration name="BinaryNode: interviews" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tree__interviews - 2019.05.23 at 23h 25m 15s.xml">
+      <configuration name="Tree: interviews" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -554,11 +596,11 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.37214363" side_tool="true" weight="0.31795818" />
       <window_info id="Favorites" order="1" sideWeight="0.53291535" side_tool="true" weight="0.19560558" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.6278564" visible="true" weight="0.12204492" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.6278564" visible="true" weight="0.12293144" />
       <window_info anchor="bottom" auto_hide="true" id="Event Log" order="0" side_tool="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Docker" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49566376" weight="0.42780748" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49566376" weight="0.427697" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.49121466" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -572,7 +614,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Version Control" order="4" sideWeight="0.49947754" side_tool="true" weight="0.2931404" />
       <window_info anchor="right" id="Terminal" order="5" sideWeight="0.51724136" side_tool="true" weight="0.2073955" />
-      <window_info anchor="right" x="-1119" y="22" width="1119" height="1058" id="Run" order="6" sideWeight="0.5005225" visible="true" weight="0.19237588" />
+      <window_info active="true" anchor="right" x="-1119" y="22" width="1119" height="1058" id="Run" order="6" sideWeight="0.5005225" visible="true" weight="0.19237588" />
       <window_info anchor="right" id="GfmBrowser" order="7" weight="0.17040756" />
     </layout>
     <layout-to-restore>
@@ -607,23 +649,26 @@
     <SUITE FILE_PATH="coverage/interviews@Run_spec__board_spec___interviews.rcov" NAME="Run spec 'board_spec': interviews Coverage Results" MODIFIED="1558234010689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect_four" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@SortedFile__interviews.rcov" NAME="SortedFile: interviews Coverage Results" MODIFIED="1558596337955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorted_file" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Node__interviews__1_.rcov" NAME="Node: interviews (1) Coverage Results" MODIFIED="1558595748274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@Run_spec__node_binary_spec___interviews.rcov" NAME="Run spec 'node_binary_spec': interviews Coverage Results" MODIFIED="1558678489766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/node_based" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@All_specs_in_spec__interviews__2_.rcov" NAME="All specs in spec: interviews (2) Coverage Results" MODIFIED="1558558636652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@node.rcov" NAME="node Coverage Results" MODIFIED="1558409180180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree/lib" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@LRUCache__interviews.rcov" NAME="LRUCache: interviews Coverage Results" MODIFIED="1558112189448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lru" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@BinaryNode__interviews.rcov" NAME="BinaryNode: interviews Coverage Results" MODIFIED="1558596207033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@IRB_console__interviews.rcov" NAME="IRB console: interviews Coverage Results" MODIFIED="1558410628262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@Node__interviews.rcov" NAME="Node: interviews Coverage Results" MODIFIED="1558595642660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Board_initialize_should_print_the_boad__interviews.rcov" NAME="Board initialize should print the boad: interviews Coverage Results" MODIFIED="1558229736595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect_four" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Board__interviews.rcov" NAME="Board: interviews Coverage Results" MODIFIED="1558234004556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect_four" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Node_append__interviews.rcov" NAME="Node#append: interviews Coverage Results" MODIFIED="1558410394399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@LocationWeather__interviews.rcov" NAME="LocationWeather: interviews Coverage Results" MODIFIED="1558112275893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hottest_temp" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@TreeTraversal__interviews.rcov" NAME="TreeTraversal: interviews Coverage Results" MODIFIED="1558595734292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Run_spec__key_value_store_spec___interviews.rcov" NAME="Run spec 'key_value_store_spec': interviews Coverage Results" MODIFIED="1558112400992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/key_value_store" MODULE_NAME="interviews" />
-    <SUITE FILE_PATH="coverage/interviews@All_specs_in_spec__interviews__2_.rcov" NAME="All specs in spec: interviews (2) Coverage Results" MODIFIED="1558558636652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@Tree__interviews.rcov" NAME="Tree: interviews Coverage Results" MODIFIED="1558679131761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/node_based" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Run_spec__lru_cache_spec___interviews.rcov" NAME="Run spec 'lru_cache_spec': interviews Coverage Results" MODIFIED="1558112070776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lru" MODULE_NAME="interviews" />
-    <SUITE FILE_PATH="coverage/interviews@node.rcov" NAME="node Coverage Results" MODIFIED="1558409180180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree/lib" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@TickerGraph__interviews.rcov" NAME="TickerGraph: interviews Coverage Results" MODIFIED="1558234941753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticker" MODULE_NAME="interviews" />
-    <SUITE FILE_PATH="coverage/interviews@All_specs_in_spec__interviews.rcov" NAME="All specs in spec: interviews Coverage Results" MODIFIED="1558255633264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect_four" MODULE_NAME="interviews" />
-    <SUITE FILE_PATH="coverage/interviews@LRUCache__interviews.rcov" NAME="LRUCache: interviews Coverage Results" MODIFIED="1558112189448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lru" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@All_specs_in_spec__interviews.rcov" NAME="All specs in spec: interviews Coverage Results" MODIFIED="1558679142910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/node_based" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Board_place_piece_first_move__interviews.rcov" NAME="Board#place_piece first move: interviews Coverage Results" MODIFIED="1558233778361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect_four" MODULE_NAME="interviews" />
-    <SUITE FILE_PATH="coverage/interviews@BinaryNode__interviews.rcov" NAME="BinaryNode: interviews Coverage Results" MODIFIED="1558596207033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
-    <SUITE FILE_PATH="coverage/interviews@IRB_console__interviews.rcov" NAME="IRB console: interviews Coverage Results" MODIFIED="1558410628262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@TickerGraph_edges_should_be_empty__interviews.rcov" NAME="TickerGraph edges should be empty: interviews Coverage Results" MODIFIED="1558126416114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticker" MODULE_NAME="interviews" />
-    <SUITE FILE_PATH="coverage/interviews@Node__interviews.rcov" NAME="Node: interviews Coverage Results" MODIFIED="1558595642660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
+    <SUITE FILE_PATH="coverage/interviews@NodeBinary__interviews.rcov" NAME="NodeBinary: interviews Coverage Results" MODIFIED="1558678909449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/node_based" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Builder_root_should_be_a_kind_of_Node___interviews.rcov" NAME="Builder root should be a kind of(Node): interviews Coverage Results" MODIFIED="1558407503544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@TickerGraph_with_tuples_ticker_tuple_edges_should_include____BTC____ETH_____interviews.rcov" NAME="TickerGraph with tuples ticker-tuple edges should include [ 'BTC', 'ETH«']: interviews Coverage Results" MODIFIED="1558127418590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticker" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@initialize_board_state_should_be_a_kind_of_Array__interviews.rcov" NAME="initialize board_state should be a kind of Array: interviews Coverage Results" MODIFIED="1558116632058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect_four" MODULE_NAME="interviews" />
@@ -711,13 +756,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hottest_temp/README.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor" />
@@ -733,13 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph/graph.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -774,20 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/rspec-core-3.8.0/lib/rspec/core/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2368">
-          <caret line="592" selection-start-line="592" selection-end-line="592" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/rspec-core-3.8.0/lib/rspec/core/example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="255" selection-start-line="255" selection-end-line="255" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/rspec-its-1.3.0/lib/rspec/its.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1284">
@@ -795,66 +819,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_tree/lib/tree.rb">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/rspec-core-3.8.0/lib/rspec/core/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="14800">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_tree/spec/node_spec.rb">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/rspec-core-3.8.0/lib/rspec/core/example.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_tree/spec/tree_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_tree/lib/binary_node.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_tree/lib/tree_traversal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_tree/lib/node.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_tree/spec/tree_traversal_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="6375">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorted_file/lib/sorted_file.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1087">
+        <state relative-caret-position="1100">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorted_file/spec/sorted_file_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1187">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="100">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_based/lib/tree/tree_traversal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/graph.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_based/lib/tree/node.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_based/lib/tree/node_binary.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_based/spec/tree/node_binary_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_based/spec/tree/tree_traversal_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_based/lib/tree/tree.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_based/spec/tree/tree_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>

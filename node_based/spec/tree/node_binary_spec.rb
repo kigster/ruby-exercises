@@ -1,15 +1,15 @@
-require_relative '../lib/node'
+require 'tree/node_binary'
 require 'rspec'
 require 'rspec/its'
 
-RSpec.describe Node do
+RSpec.describe NodeBinary do
   let(:values) { [1] }
 
   subject(:node) { described_class.new(values.first) }
 
   its(:left) { should be_nil }
   its(:right) { should be_nil }
-  its(:value) { should eq values.first }
+  its(:data) { should eq values.first }
   its(:sum) { should eq values.sum }
   its(:complete?) { should be false }
 
