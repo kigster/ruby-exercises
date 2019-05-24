@@ -7,6 +7,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="rbenv: 2.6.2" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.8.0, rbenv: 2.6.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.17.2, rbenv: 2.6.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="colored2 (v3.1.2, rbenv: 2.6.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.3, rbenv: 2.6.2) [gem]" level="application" />

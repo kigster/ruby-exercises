@@ -1,8 +1,8 @@
-require 'tree/node_binary'
+require 'trees/node_binary'
 require 'rspec'
 require 'rspec/its'
 
-RSpec.describe NodeBinary do
+RSpec.describe Trees::NodeBinary do
   let(:values) { [1] }
 
   subject(:node) { described_class.new(values.first) }
@@ -16,5 +16,4 @@ RSpec.describe NodeBinary do
   context '.from_array' do
     let(:args) { [1000, 100, 200, 10, 20, 30, 40] }
   end
-
 end
