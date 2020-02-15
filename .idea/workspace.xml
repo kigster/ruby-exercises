@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56afcbf0-e95e-44bc-ba8f-7495335f2ae3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_four/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_four/lib/board.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/lib/board.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_four/lib/game_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/lib/game_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_four/lib/player.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/lib/player.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_four/spec/board_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/spec/board_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/lib/hottest_temp.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/hottest_temp.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/lib/location_finder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_finder.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/lib/location_parser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_parser.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/lib/location_weather.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_weather.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/spec/location_parser_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/spec/location_parser_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/spec/location_weather_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/spec/location_weather_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key_value_store/key_value_store.rb" beforeDir="false" afterPath="$PROJECT_DIR$/key_value_store/key_value_store.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key_value_store/key_value_store_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/key_value_store/key_value_store_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lru/lru_cache.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lru/lib/lru_cache.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lru/lru_cache_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lru/spec/lru_cache_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/lib/graphs/dijkstra.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/graphs/dijkstra.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/lib/graphs/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/graphs/node.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/lib/graphs/node_weighted.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/graphs/node_weighted.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/lib/trees/binary_tree.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/trees/binary_tree.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/lib/trees/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/trees/node.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/lib/trees/node_binary.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/trees/node_binary.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/spec/graph/dijkstra_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/graph/dijkstra_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/spec/graph/node_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/graph/node_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/spec/graph/node_weighted_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/graph/node_weighted_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/spec/trees/binary_tree_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/trees/binary_tree_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_based/spec/trees/node_binary_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/trees/node_binary_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorted_file/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_file/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorted_file/lib/sorted_file.rb" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_file/lib/sorted_file.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorted_file/spec/sorted_file_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_file/spec/sorted_file_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticker/lib/ticker_graph.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ticker/lib/ticker_graph.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticker/spec/ticker_graph_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ticker/spec/ticker_graph_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticker/ticker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ticker/ticker.rb" afterDir="false" />
-    </list>
+    <list default="true" id="56afcbf0-e95e-44bc-ba8f-7495335f2ae3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -361,22 +325,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="182" width="1071" height="826" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581725491134" />
-    <state width="570" height="885" key="GridCell.Tab.0.bottom" timestamp="1581726811964">
+    <state width="570" height="885" key="GridCell.Tab.0.bottom" timestamp="1581727305961">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="570" height="885" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581726811964" />
-    <state width="570" height="885" key="GridCell.Tab.0.center" timestamp="1581726811962">
+    <state width="570" height="885" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581727305961" />
+    <state width="570" height="885" key="GridCell.Tab.0.center" timestamp="1581727305960">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="570" height="885" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581726811962" />
-    <state width="570" height="885" key="GridCell.Tab.0.left" timestamp="1581726811962">
+    <state width="570" height="885" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581727305960" />
+    <state width="570" height="885" key="GridCell.Tab.0.left" timestamp="1581727305960">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="570" height="885" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581726811962" />
-    <state width="570" height="885" key="GridCell.Tab.0.right" timestamp="1581726811963">
+    <state width="570" height="885" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581727305960" />
+    <state width="570" height="885" key="GridCell.Tab.0.right" timestamp="1581727305961">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="570" height="885" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581726811963" />
+    <state width="570" height="885" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581727305961" />
     <state x="233" y="76" key="SettingsEditor" timestamp="1581725116428">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
