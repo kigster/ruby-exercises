@@ -7,5 +7,7 @@ rvm:
 sudo: false
 language: ruby
 cache: bundler
+before_script:
+  - bundle update --bundler
 script:
   - bundle exec rake
