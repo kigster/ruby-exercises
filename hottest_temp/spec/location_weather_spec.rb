@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../lib/location_weather'
 require 'rspec/its'
 RSpec.describe LocationWeather do
@@ -39,6 +41,5 @@ RSpec.describe LocationWeather do
     its('parser.lat') { should be_within(0.001).of lat }
     its('parser.query') { should eq 'lat=61.210841&lon=-149.88873' }
     its(:temperature) { should be > 272 }
-
   end
 end

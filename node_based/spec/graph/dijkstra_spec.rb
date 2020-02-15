@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'graphs/node_weighted'
 require 'graphs/dijkstra'
 require 'rspec'
@@ -48,6 +50,5 @@ module Graphs
         expect(result[:bakersfield][1]).to eq :san_jose
       end
     end
-
   end
 end

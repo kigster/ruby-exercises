@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class LocationParser
   attr_accessor :line, :location
 
@@ -35,4 +37,3 @@ class ZipParser < LocationParser
 end
 
 LocationParser.parsers = [ZipParser]
-

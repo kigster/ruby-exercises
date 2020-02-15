@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class SortedFile
   class << self
     attr_reader :sort_extensions
@@ -24,6 +26,7 @@ class SortedFile
   def <=>(other)
     return nil unless other.is_a?(SortedFile)
     return nil if self.class.sort_extensions.empty?
+
     our_index   = self.class.extension_index(extension)
     other_index = self.class.extension_index(other.extension)
     if our_index && other_index
@@ -39,6 +42,7 @@ class SortedFile
 
   def ==(other)
     return false unless other.is_a?(SortedFile)
+
     file_name == other.file_name
   end
 end

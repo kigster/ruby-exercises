@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'graphs/node'
 require 'rspec'
 require 'rspec/its'

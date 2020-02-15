@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rspec'
 require 'rspec/its'
 require_relative '../lib/sorted_file'
@@ -44,7 +46,4 @@ RSpec.describe SortedFile do
       it { is_expected.to eq output }
     end
   end
-
 end
-
-

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Trees
   class Node
     attr_accessor :children

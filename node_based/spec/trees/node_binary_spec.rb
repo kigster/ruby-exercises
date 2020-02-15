@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'trees/node_binary'
 require 'rspec'
 require 'rspec/its'

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'graphs/node_weighted'
 require 'rspec'
 require 'rspec/its'

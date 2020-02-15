@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Board
   COLOR_RED   = 'X '
   COLOR_BLACK = 'O '
@@ -11,19 +13,18 @@ class Board
   def initialize
     self.board_state = []
     COLS.times do
-      self.board_state << Array.new(ROWS) { COLOR_NIL }
+      board_state << Array.new(ROWS) { COLOR_NIL }
     end
   end
 
   def place_piece(column_index, color)
     first_empty_index = next_empty_slot(column_index)
     raise ArgumentError, "Column #{column_index} is full" if first_empty_index.nil?
+
     board_state[column_index][first_empty_index] = color
   end
 
-  def check_winner
-
-  end
+  def check_winner; end
 
   def print_board
     puts to_s
@@ -42,7 +43,7 @@ class Board
   end
 
   def next_empty_slot(column_index)
-    index = board_state[column_index].find_index { |e| ! e.eql?(COLOR_NIL)}
+    index = board_state[column_index].find_index { |e| !e.eql?(COLOR_NIL) }
     if index && index > 0
       return index - 1
     elsif index.nil?
@@ -51,5 +52,4 @@ class Board
 
     nil
   end
-
 end

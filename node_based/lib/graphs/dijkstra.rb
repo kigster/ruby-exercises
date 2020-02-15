@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Graphs
   class Dijkstra
     attr_accessor :starting_vertex, :other_vertexes, :lookup

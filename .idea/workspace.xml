@@ -2,22 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56afcbf0-e95e-44bc-ba8f-7495335f2ae3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/interviews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interviews.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connect_four/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_four/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/hottest_temp.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/hottest_temp.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/location_finder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_finder.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/location_parser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_parser.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hottest_temp/location_weather.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_weather.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect_four/lib/board.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/lib/board.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect_four/lib/game_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/lib/game_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect_four/lib/player.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/lib/player.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect_four/spec/board_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connect_four/spec/board_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hottest_temp/lib/hottest_temp.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/hottest_temp.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hottest_temp/lib/location_finder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_finder.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hottest_temp/lib/location_parser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_parser.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hottest_temp/lib/location_weather.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/lib/location_weather.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hottest_temp/spec/location_parser_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/spec/location_parser_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hottest_temp/spec/location_weather_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hottest_temp/spec/location_weather_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_value_store/key_value_store.rb" beforeDir="false" afterPath="$PROJECT_DIR$/key_value_store/key_value_store.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_value_store/key_value_store_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/key_value_store/key_value_store_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lru/lru_cache.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lru/lib/lru_cache.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lru/lru_cache_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lru/spec/lru_cache_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/lib/graphs/dijkstra.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/graphs/dijkstra.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/lib/graphs/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/graphs/node.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/lib/graphs/node_weighted.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/graphs/node_weighted.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/lib/trees/binary_tree.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/trees/binary_tree.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/lib/trees/node.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/trees/node.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/lib/trees/node_binary.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/lib/trees/node_binary.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/spec/graph/dijkstra_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/graph/dijkstra_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/spec/graph/node_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/graph/node_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/spec/graph/node_weighted_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/graph/node_weighted_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/spec/trees/binary_tree_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/trees/binary_tree_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_based/spec/trees/node_binary_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/node_based/spec/trees/node_binary_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorted_file/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_file/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorted_file/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_file/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorted_file/lib/sorted_file.rb" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_file/lib/sorted_file.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorted_file/spec/sorted_file_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_file/spec/sorted_file_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticker/lib/ticker_graph.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ticker/lib/ticker_graph.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticker/spec/ticker_graph_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ticker/spec/ticker_graph_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticker/ticker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ticker/ticker.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,11 +121,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lru/spec" />
+      <recent name="$PROJECT_DIR$/lru/lib" />
       <recent name="$PROJECT_DIR$/hottest_temp/lib" />
       <recent name="$PROJECT_DIR$/node_based/spec/tree" />
       <recent name="$PROJECT_DIR$/node_based/lib/tree" />
-      <recent name="$PROJECT_DIR$/node_based/lib" />
-      <recent name="$PROJECT_DIR$/binary_tree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/node_based/spec/graph" />
@@ -116,7 +135,7 @@
       <recent name="$PROJECT_DIR$/binary_tree/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.All specs in spec: interviews (3)">
+  <component name="RunManager" selected="RSpec.All specs in spec: interviews (4)">
     <configuration name="All specs in spec: interviews (1)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="interviews" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -216,6 +235,39 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="All specs in spec: interviews (4)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <module name="interviews" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/lru" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/lru/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="All specs in spec: interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="interviews" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -240,39 +292,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Dijkstra: interviews" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <module name="interviews" />
-      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/node_based" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/node_based/spec/graph/dijkstra_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Dijkstra" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
@@ -310,16 +329,16 @@
       <item itemvalue="RSpec.All specs in spec: interviews" />
       <item itemvalue="RSpec.All specs in spec: interviews (1)" />
       <item itemvalue="RSpec.All specs in spec: interviews (2)" />
-      <item itemvalue="RSpec.Dijkstra: interviews" />
       <item itemvalue="RSpec.All specs in spec: interviews (3)" />
+      <item itemvalue="RSpec.All specs in spec: interviews (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.All specs in spec: interviews (4)" />
         <item itemvalue="RSpec.All specs in spec: interviews (3)" />
         <item itemvalue="RSpec.All specs in spec: interviews (2)" />
         <item itemvalue="RSpec.All specs in spec: interviews (1)" />
         <item itemvalue="RSpec.All specs in spec: interviews" />
-        <item itemvalue="RSpec.Dijkstra: interviews" />
       </list>
     </recent_temporary>
   </component>
@@ -342,28 +361,29 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="182" width="1071" height="826" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581725491134" />
-    <state width="570" height="885" key="GridCell.Tab.0.bottom" timestamp="1581726430907">
+    <state width="570" height="885" key="GridCell.Tab.0.bottom" timestamp="1581726811964">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="570" height="885" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581726430907" />
-    <state width="570" height="885" key="GridCell.Tab.0.center" timestamp="1581726430906">
+    <state width="570" height="885" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581726811964" />
+    <state width="570" height="885" key="GridCell.Tab.0.center" timestamp="1581726811962">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="570" height="885" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581726430906" />
-    <state width="570" height="885" key="GridCell.Tab.0.left" timestamp="1581726430905">
+    <state width="570" height="885" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581726811962" />
+    <state width="570" height="885" key="GridCell.Tab.0.left" timestamp="1581726811962">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="570" height="885" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581726430905" />
-    <state width="570" height="885" key="GridCell.Tab.0.right" timestamp="1581726430907">
+    <state width="570" height="885" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581726811962" />
+    <state width="570" height="885" key="GridCell.Tab.0.right" timestamp="1581726811963">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="570" height="885" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581726430907" />
+    <state width="570" height="885" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581726811963" />
     <state x="233" y="76" key="SettingsEditor" timestamp="1581725116428">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="233" y="76" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1581725116428" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/interview_questions@All_specs_in_spec__interviews__4_.rcov" NAME="All specs in spec: interviews (4) Coverage Results" MODIFIED="1581726811951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lru" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@LocationWeather__interviews.rcov" NAME="LocationWeather: interviews Coverage Results" MODIFIED="1558112275893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hottest_temp" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@Builder_root_should_be_a_kind_of_Node___interviews.rcov" NAME="Builder root should be a kind of(Node): interviews Coverage Results" MODIFIED="1558407503544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_tree" MODULE_NAME="interviews" />
     <SUITE FILE_PATH="coverage/interviews@TickerGraph_edges_should_be_empty__interviews.rcov" NAME="TickerGraph edges should be empty: interviews Coverage Results" MODIFIED="1558126416114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticker" MODULE_NAME="interviews" />

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../lib/ticker_graph'
 require 'rspec'
 require 'rspec/its'

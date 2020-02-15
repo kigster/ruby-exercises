@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'colored2'
 require 'uri'
 require 'net/http'
@@ -18,6 +20,7 @@ class LocationWeather
     self.line = line
     self.parser = LocationParser.parser(line)
     raise ArgumentError, "Unable to parse string: [#{line}]" if parser.nil?
+
     self.hash = get_weather!
   end
 
@@ -26,8 +29,8 @@ class LocationWeather
     res = Net::HTTP.get_response(uri)
     JSON.parse res.body if res.is_a?(Net::HTTPSuccess)
   rescue StandardError => e
-    STDERR.puts "Error getting data for line:\n#{line}"
-    STDERR.puts e.inspect.bold.red
+    warn "Error getting data for line:\n#{line}"
+    warn e.inspect.bold.red
   end
 
   def temperature

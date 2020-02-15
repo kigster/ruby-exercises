@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class GameController
   attr_accessor :board, :players, :next_player_index
 
@@ -18,14 +20,10 @@ class GameController
     end
   end
 
-  def game_over?
-
-  end
+  def game_over?; end
 
   def take_turn
     move = players[next_player_index].next_move(board)
     board.validate_next_move!(move)
   end
-
-
 end

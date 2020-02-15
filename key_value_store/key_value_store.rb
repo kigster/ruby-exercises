@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rspec/autorun'
 
 class KeyValueStore
@@ -9,19 +11,21 @@ class KeyValueStore
 
   def read(key)
     return nil unless store[key]
+
     store[key][store[key].keys.max]
   end
 
   def read_at_time(key, time)
     return nil unless store[key]
+
     ts = find_closest(store[key].keys.sort, time)
 
     store[key][ts]
   end
 
   def write(key, value)
-    time             = current_time
-    store[key]       ||= {}
+    time = current_time
+    store[key] ||= {}
     store[key][time] = value
   end
 

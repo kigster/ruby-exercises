@@ -17,13 +17,11 @@ namespace :solutions do
       puts "Testing Solution: #{entry.to_s.bold.green}"
 
       Dir.chdir(entry) do
-        begin
-          system '( bundle check || bundle install ) && bundle exec rspec'
-          code += ($? == 0) ? 0 : 1
-        rescue StandardError => e
-          code += 1
-          STDERR.puts "Error running #{entry.to_s.red}: #{e.inspect.red.bold}"
-        end
+        system '( bundle check || bundle install ) && bundle exec rspec'
+        code += $? == 0 ? 0 : 1
+      rescue StandardError => e
+        code += 1
+        warn "Error running #{entry.to_s.red}: #{e.inspect.red.bold}"
       end
     end
 

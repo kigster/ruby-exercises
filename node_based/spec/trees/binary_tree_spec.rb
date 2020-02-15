@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'trees/node_binary'
 require 'trees/binary_tree'
 require 'rspec'
@@ -23,7 +25,7 @@ module Trees
     context 'in_order_traversal' do
       subject(:result) do
         values = []
-        tree.in_order_traversal(node: root_node) do |node, level|
+        tree.in_order_traversal(node: root_node) do |node, _level|
           values << node.data if node&.data
         end
         values

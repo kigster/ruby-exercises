@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class LocationFinder
   attr_accessor :found_location
 
-  def initialize(*data, &block)
+  def initialize(*data)
     data.each do |datum|
       datum.split("\n").each do |line|
         find(parse(line))
@@ -13,7 +15,7 @@ class LocationFinder
     LocationWeather.new(line)
   end
 
-  def find(weather)
+  def find(_weather)
     raise ArgumentError, 'Abstract method called'
   end
 end
@@ -34,4 +36,3 @@ class HottestLocation < LocationFinder
     end
   end
 end
-

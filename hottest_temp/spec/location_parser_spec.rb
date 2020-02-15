@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rspec/its'
 require_relative '../lib/location_parser'
 RSpec.describe LocationParser do
@@ -31,6 +33,5 @@ RSpec.describe LocationParser do
     its(:lon) { should be_within(0.001).of lon }
     its(:lat) { should be_within(0.001).of lat }
     its(:query) { should eq 'lat=61.210841&lon=-149.88873' }
-
   end
 end

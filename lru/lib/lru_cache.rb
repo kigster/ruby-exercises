@@ -1,5 +1,6 @@
-class LRUCache
+# frozen_string_literal: true
 
+class LRUCache
   attr_accessor :size, :data, :recency
 
   def initialize(size = nil)

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rspec'
 require 'rspec/its'
 
@@ -8,14 +10,13 @@ RSpec.describe Board do
   let(:red) { ::Board::COLOR_RED }
   let(:empty) { ::Board::COLOR_NIL }
 
-
   subject(:board) { described_class.new }
 
   let(:rows) { board.to_s.split(/\n/) }
 
   context '#initialize' do
     its(:board_state) { should be_a_kind_of Array }
-    its(:to_s) { should match %r[^(\. ){7}] }
+    its(:to_s) { should match /^(\. ){7}/ }
   end
 
   context '#to_s' do
@@ -36,13 +37,13 @@ RSpec.describe Board do
 
       describe 'second move' do
         let(:expected) { black + red + empty * (Board::COLS - 2) }
-        before { board.place_piece(column_index + 1 , red) }
+        before { board.place_piece(column_index + 1, red) }
         it { is_expected.to eq expected }
 
         describe 'third move' do
           let(:last_row_string) { rows[-2] }
           let(:expected) { black + red + empty * (Board::COLS - 2) }
-          before { board.place_piece(column_index + 1 , red) }
+          before { board.place_piece(column_index + 1, red) }
           it { is_expected.to eq expected }
         end
       end

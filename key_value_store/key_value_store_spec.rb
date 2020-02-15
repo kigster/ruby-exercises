@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'key_value_store'
 require 'rspec'
 RSpec.describe KeyValueStore do
@@ -80,5 +82,3 @@ RSpec.describe KeyValueStore do
     end
   end
 end
-
-

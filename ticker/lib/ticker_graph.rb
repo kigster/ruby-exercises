@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 require 'set'
 
 class TickerGraph
-
   class TickerTuple < Struct.new(:tuple, :ticker)
     attr_accessor :from, :to
 
@@ -18,21 +19,19 @@ class TickerGraph
     self.edges         = []
     self.ticker_tuples = []
 
-    if ticker_tuple_hash
-      ticker_tuple_hash.each_pair do |tuple, ticker|
-        ticker_tuple = TickerTuple.new(tuple, ticker)
-        self.ticker_tuples << ticker_tuple
-        register_edge(ticker_tuple.from, ticker_tuple.to)
-      end
+    ticker_tuple_hash&.each_pair do |tuple, ticker|
+      ticker_tuple = TickerTuple.new(tuple, ticker)
+      ticker_tuples << ticker_tuple
+      register_edge(ticker_tuple.from, ticker_tuple.to)
     end
   end
 
   def walk_edges(from = nil, path = [])
-    if from
-      tos = currencies[from]
-    else
-      tos = currencies.keys
-    end
+    tos = if from
+            currencies[from]
+          else
+            currencies.keys
+          end
 
     path << from
 
@@ -54,14 +53,13 @@ class TickerGraph
   private
 
   def register_edge(from, to)
-    self.edges << Set.new([from, to])
-    self.edges << Set.new([to, from])
+    edges << Set.new([from, to])
+    edges << Set.new([to, from])
 
-    self.currencies[from] ||= Set.new
-    self.currencies[to]   ||= Set.new
+    currencies[from] ||= Set.new
+    currencies[to]   ||= Set.new
 
-    self.currencies[from] << to
-    self.currencies[to] << from
+    currencies[from] << to
+    currencies[to] << from
   end
-
 end

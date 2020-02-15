@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Graphs
   class Node
     attr_accessor :data, :connections, :visited

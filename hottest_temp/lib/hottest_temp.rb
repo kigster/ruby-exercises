@@ -32,7 +32,7 @@ class HighestTemperature
   def get_data(parser)
     uri = URI(self.class.api_url + '?' + parser.query)
     res = Net::HTTP.get_response(uri)
-    JSON.parse(res.body) unless !res.is_a?(Net::HTTPSuccess)
+    JSON.parse(res.body) if res.is_a?(Net::HTTPSuccess)
   end
 
   def compare_temp(hash, parser)

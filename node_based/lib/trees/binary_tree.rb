@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'node'
 
 module Trees
@@ -8,7 +10,7 @@ module Trees
       self.root = root
     end
 
-    def in_order_traversal(node: self.root, level: 0, &block)
+    def in_order_traversal(node: root, level: 0, &block)
       if node
         in_order_traversal(node: node.left, level: level + 1, &block) if node.left
         block.call(node, level) if block_given?
