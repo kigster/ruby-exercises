@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 lib_path = File.expand_path(File.dirname(__FILE__) + '/../lib')
 $LOAD_PATH << lib_path if File.exist?(lib_path) && !$LOAD_PATH.include?(lib_path)
@@ -21,28 +22,21 @@ class HighestTemperature
     @hottest_temp     = 0
 
     data.split("\n").each do |line|
-      begin
-        parser = LocationParser.new(line)
-        compare_temp(get_data(parser), parser)
-      rescue ArgumentError => e
-        puts "unknown format: #{line}"
-      end
+      parser = LocationParser.new(line)
+      compare_temp(get_data(parser), parser)
+    rescue ArgumentError => e
+      puts "unknown format: #{line}"
     end
   end
 
   def get_data(parser)
     uri = URI(self.class.api_url + '?' + parser.query)
     res = Net::HTTP.get_response(uri)
-    if res.is_a?(Net::HTTPSuccess)
-      JSON.parse(res.body)
-    end
+    JSON.parse(res.body) unless !res.is_a?(Net::HTTPSuccess)
   end
 
   def compare_temp(hash, parser)
     temp = hash['main']['temp']
-    if temp > @hottest_temp
-      @hottest_location = hash['name'] || parser.location
-    end
+    @hottest_location = hash['name'] || parser.location if temp > @hottest_temp
   end
 end
-

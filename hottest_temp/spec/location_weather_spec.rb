@@ -1,4 +1,4 @@
-require_relative '../location_weather'
+require_relative '../lib/location_weather'
 require 'rspec/its'
 RSpec.describe LocationWeather do
   subject(:weather) { described_class.new(line) }

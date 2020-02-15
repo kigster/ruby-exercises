@@ -1,5 +1,5 @@
 require 'rspec/its'
-require_relative '../location_parser'
+require_relative '../lib/location_parser'
 RSpec.describe LocationParser do
   subject(:parser) { described_class.parser(line) }
 

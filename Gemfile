@@ -1,7 +1,13 @@
+# frozen_string_literal: true
+
+# vim: ft=ruby
 source 'https://rubygems.org'
 
-gem 'colored2'
-gem 'rspec'
-gem 'rspec-its'
-gem 'ffi', :platforms => [:mswin, :mingw]
-gem 'awesome_print'
+group :development do
+  gem 'awesome_print'
+  gem 'colored2'
+  gem 'rake'
+  gem 'rspec'
+  gem 'rspec-its'
+  gem 'rubocop'
+end

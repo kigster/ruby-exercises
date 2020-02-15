@@ -17,10 +17,22 @@ class LocationParser
   def query
     raise InvalidArgument, 'Abstract class #query called'
   end
+
+  def matches?
+    raise InvalidArgument, 'Abstract class #matches? called'
+  end
 end
 
-require_relative 'location_parser/lat_lon_parser'
-require_relative 'location_parser/city_parser'
+class ZipParser < LocationParser
+  def matches?
+    line =~ /\d{5}/
+  end
 
-LocationParser.parsers = [ZipParser, LatLonParser, CityParser]
+  def query
+    zip = line.scan(/(\d{5})/)&.first&.first
+    "zip=#{zip}" if zip
+  end
+end
+
+LocationParser.parsers = [ZipParser]
 
