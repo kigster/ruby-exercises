@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/connect_four.iml" filepath="$PROJECT_DIR$/.idea/modules/connect_four.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/connect-four.iml" filepath="$PROJECT_DIR$/.idea/modules/connect-four.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/currency-exchange.iml" filepath="$PROJECT_DIR$/.idea/modules/currency-exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/excel-column.iml" filepath="$PROJECT_DIR$/.idea/modules/excel-column.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/interviews.iml" filepath="$PROJECT_DIR$/.idea/interviews.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sorted_file.iml" filepath="$PROJECT_DIR$/.idea/modules/sorted_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ip-parser.iml" filepath="$PROJECT_DIR$/.idea/modules/ip-parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lru-cache.iml" filepath="$PROJECT_DIR$/.idea/modules/lru-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/node-based.iml" filepath="$PROJECT_DIR$/.idea/modules/node-based.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/role-based-priority-queue.iml" filepath="$PROJECT_DIR$/.idea/modules/role-based-priority-queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sorted-file.iml" filepath="$PROJECT_DIR$/.idea/modules/sorted-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tetris.iml" filepath="$PROJECT_DIR$/.idea/modules/tetris.iml" />
     </modules>
   </component>
 </project>

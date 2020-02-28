@@ -4,6 +4,18 @@
 require 'rake'
 require 'colored2'
 
+def run(command)
+  puts "$ #{command.bold.yellow}"
+  puts `#{command}`
+  return $?
+end
+
+def h1(text)
+  puts ("•" * 80).white.on.blue
+  puts sprintf("  %-75.75s   ", text).bold.white.on.magenta
+  puts
+end
+
 namespace :solutions do
   desc 'Run RSpecs for all solutions'
   task :specs do
@@ -13,12 +25,11 @@ namespace :solutions do
       next unless File.directory?(entry)
       next if File.exist?("#{entry}/.skip")
 
-      puts "———————————————————————————————————————————————————".cyan
-      puts "Testing Solution: #{entry.to_s.bold.green}"
+      h1 entry
 
       Dir.chdir(entry) {
         begin
-          system '( bundle check || bundle install ) && bundle exec rspec'
+          run('bundle check || bundle install') && run('bundle exec rspec --format progress --force-color -p1')
           code += $? == 0 ? 0 : 1
         rescue StandardError => e
           code += 1
@@ -27,9 +38,12 @@ namespace :solutions do
       }
     end
 
-    puts "———————————————————————————————————————————————————".yellow
-    puts "  Total of #{code} errors.".bold.blue
-    puts "———————————————————————————————————————————————————".yellow
+
+    h1 "Total number of errors: #{code}"
+
+    if code > 0
+      raise "RSpecs failed"
+    end
   end
 end
 

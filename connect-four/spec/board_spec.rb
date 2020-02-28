@@ -5,10 +5,10 @@ require 'rspec/its'
 
 require_relative '../lib/board'
 
-RSpec.describe Board do
-  let(:black) { ::Board::COLOR_BLACK }
-  let(:red) { ::Board::COLOR_RED }
-  let(:empty) { ::Board::COLOR_NIL }
+RSpec.describe ConnectFour::Board do
+  let(:black) { ConnectFour::Board::COLOR_BLACK }
+  let(:red) { ConnectFour::Board::COLOR_RED }
+  let(:empty) { ConnectFour::Board::COLOR_NIL }
 
   subject(:board) { described_class.new }
 
@@ -32,17 +32,17 @@ RSpec.describe Board do
 
     describe 'first move' do
       before { board.place_piece(column_index, black) }
-      let(:expected) { black + empty * (Board::COLS - 1) }
+      let(:expected) { black + empty * (ConnectFour::Board::COLS - 1) }
       it { is_expected.to eq expected }
 
       describe 'second move' do
-        let(:expected) { black + red + empty * (Board::COLS - 2) }
+        let(:expected) { black + red + empty * (ConnectFour::Board::COLS - 2) }
         before { board.place_piece(column_index + 1, red) }
         it { is_expected.to eq expected }
 
         describe 'third move' do
           let(:last_row_string) { rows[-2] }
-          let(:expected) { black + red + empty * (Board::COLS - 2) }
+          let(:expected) { black + red + empty * (ConnectFour::Board::COLS - 2) }
           before { board.place_piece(column_index + 1, red) }
           it { is_expected.to eq expected }
         end
