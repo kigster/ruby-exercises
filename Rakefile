@@ -11,8 +11,9 @@ def run(command)
 end
 
 def h1(text)
-  puts("•" * 80).white.on.blue
-  puts sprintf("  %-75.75s   ", text).bold.white.on.magenta
+  puts(("—" * 80).white.on.blue)
+  puts sprintf("  %-75.75s   ", text).bold.white.on.blue
+  puts(("—" * 80).white.on.blue)
   puts
 end
 

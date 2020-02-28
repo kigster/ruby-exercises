@@ -62,7 +62,7 @@ class TickerGraph
   end
 
   def populate_currencies!(from_ticker = nil)
-    keys = from_ticker.nil? ? currencies.keys : [ from_ticker ]
+    keys = from_ticker.nil? ? currencies.keys : [from_ticker]
     keys.each do |from|
       currencies[from] ||= {}
       currencies.keys.each do |to|
@@ -73,16 +73,16 @@ class TickerGraph
         next if currencies[from][to].nil?
 
         currencies[to].keys.each do |transient_to|
-          next if currencies[from].key?(transient_to) || 
-            currencies[from][to].nil? || 
-            currencies[to][transient_to].nil?
-          
+          next if currencies[from].key?(transient_to) ||
+                  currencies[from][to].nil? ||
+                  currencies[to][transient_to].nil?
+
           currencies[from][transient_to] = (currencies[from][to] * currencies[to][transient_to]).to_f.round(4)
           populate_currencies!(to)
         end
       end
     end
-   
+
     currencies.keys.each do |from|
       tos = currencies[from].keys.select { |k| currencies[from][k].nil? }
       unless tos.empty?

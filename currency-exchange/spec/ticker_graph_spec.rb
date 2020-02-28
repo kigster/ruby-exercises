@@ -70,7 +70,7 @@ RSpec.describe TickerGraph do
               USD-EUR ————▶    0.7692
               USD-LTC ————▶    0.2857
             CURRENCIES
-          } 
+          }
 
           it 'should generate edges ticker_graph as string' do
             expect(ticker_graph.to_s).to eq expected_output

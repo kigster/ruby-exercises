@@ -7,18 +7,9 @@ require 'colored2'
 
 exchange_rates = {
   'BTC-ETH' => 0.6,
-  "ETH-CBU" => 1.2,
-  "CBU-AMH" => 0.1,
-  "AMH-BTC" => 0.1
-}
-
-exchange_rates = {
-  'BTC-ETH' => 200.0,
-  'BTC-USD' => 7000.0,
-  'ETH-USD' => 15.0,
-  'ETH-LTC' => 10.0,
-  'LTC-EUR' => 12.0,
-  'EUR-USD' => 1.3
+  'ETH-CBU' => 1.2,
+  'CBU-AMH' => 0.1,
+  'AMH-BTC' => 0.1
 }
 
 tg = TickerGraph.new(exchange_rates).resolve!
