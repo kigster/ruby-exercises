@@ -7,11 +7,11 @@ require 'colored2'
 def run(command)
   puts "$ #{command.bold.yellow}"
   puts `#{command}`
-  return $?
+  $?
 end
 
 def h1(text)
-  puts ("•" * 80).white.on.blue
+  puts("•" * 80).white.on.blue
   puts sprintf("  %-75.75s   ", text).bold.white.on.magenta
   puts
 end
@@ -37,7 +37,6 @@ namespace :solutions do
         end
       }
     end
-
 
     h1 "Total number of errors: #{code}"
 

@@ -25,8 +25,7 @@ module ConnectFour
       board_state[column_index][first_empty_index] = color
     end
 
-    def check_winner;
-    end
+    def check_winner; end
 
     def print_board
       puts to_s
