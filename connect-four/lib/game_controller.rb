@@ -8,7 +8,7 @@ class GameController
 
     player1.color = COLOR_BLACK
     player2.color = COLOR_RED
-    1
+
     self.board = Board.new
 
     self.next_player_index = 0

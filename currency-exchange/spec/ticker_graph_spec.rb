@@ -47,18 +47,30 @@ RSpec.describe TickerGraph do
 
         context '#to_s' do
           let(:expected_output) {
-            "\n" + [
-              'BTC-ETH ————▶  200.0000',
-              'ETH-USD ————▶   15.0000',
-              'ETH-LTC ————▶   10.0000',
-              'LTC-EUR ————▶   12.0000',
-              'EUR-USD ————▶    1.3000',
-              'LTC-USD ————▶   15.6000',
-              'ETH-EUR ————▶  120.0000',
-              'BTC-USD ————▶ 7000.0000',
-              'BTC-LTC ————▶ 2000.0000',
-            ].join("\n") + "\n"
-          }
+            <<~CURRENCIES
+
+              BTC-ETH ————▶  200.0000
+              BTC-EUR ————▶ 2307.7000
+              BTC-LTC ————▶ 2000.0000
+              BTC-USD ————▶ 7000.0000
+              ETH-BTC ————▶    0.0050
+              ETH-EUR ————▶   11.5385
+              ETH-LTC ————▶   10.0000
+              ETH-USD ————▶   15.0000
+              EUR-BTC ————▶    0.0004
+              EUR-ETH ————▶    0.0867
+              EUR-LTC ————▶    0.0833
+              EUR-USD ————▶    1.3000
+              LTC-BTC ————▶    0.0005
+              LTC-ETH ————▶    0.1000
+              LTC-EUR ————▶   12.0000
+              LTC-USD ————▶    1.5000
+              USD-BTC ————▶    0.0001
+              USD-ETH ————▶    0.0667
+              USD-EUR ————▶    0.7692
+              USD-LTC ————▶    0.2857
+            CURRENCIES
+          } 
 
           it 'should generate edges ticker_graph as string' do
             expect(ticker_graph.to_s).to eq expected_output
