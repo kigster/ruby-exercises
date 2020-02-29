@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/kigster/ruby-interview-problems.svg?branch=master)](https://travis-ci.org/kigster/ruby-interview-problems)
 
+![CI Status](https://github.com/kigster/ruby-interview-problems/workflows/Ruby/badge.svg)
+
 # Ruby Interview Questions with Solutions
 
 This is a collection of various interview questions with full or partial solutions.
