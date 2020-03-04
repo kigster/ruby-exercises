@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Progesterone 100 MG",
+    "price": 65.59
+  },
+  {
+    "id": 2,
+    "name": "Methazolamide 25 MG",
+    "price": 2.20
+  },
+  {
+    "id": 3,
+    "name": "Crest 3 D White",
+    "price": 3.50
+  },
+  {
+    "id": 4,
+    "name": "Zyrtec Tab 10MG",
+    "price": 0.20
+  },
+  {
+    "id": 5,
+    "name": "Lidocaine Hcl 20 MG/ML",
+    "price": 0.05
+  }
+]

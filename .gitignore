@@ -1,4 +1,5 @@
 .idea/
+**/.idea/
 /.bundle/
 /.yardoc
 /Gemfile.lock
@@ -15,3 +16,4 @@
 .ruby-version
 temp/
 .idea/workspace.xml
+**/.rspec_status

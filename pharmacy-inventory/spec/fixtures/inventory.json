@@ -1,0 +1,22 @@
+[
+  {
+    "medication_id": 1,
+    "quantity": 27
+  },
+  {
+    "medication_id": 2,
+    "quantity": 10
+  },
+  {
+    "medication_id": 3,
+    "quantity": 65
+  },
+  {
+    "medication_id": 4,
+    "quantity": 0
+  },
+  {
+    "medication_id": 5,
+    "quantity": 17
+  }
+]

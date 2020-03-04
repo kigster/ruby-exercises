@@ -1,0 +1,22 @@
+[
+  {
+    "medication_id": 1,
+    "quantity": 30,
+    "date": "2020-03-04T12:00:00Z"
+  },
+  {
+    "medication_id": 2,
+    "quantity": 5,
+    "date": "2020-03-10T12:00:00Z"
+  },
+  {
+    "medication_id": 2,
+    "quantity": 10,
+    "date": "2020-04-03T12:00:00"
+  },
+  {
+    "medication_id": 3,
+    "quantity": 100,
+    "date": "2020-03-04T12:00:00Z"
+  }
+]
