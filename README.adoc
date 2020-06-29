@@ -5,7 +5,8 @@
 :toclevel: 4
 
 image::https://travis-ci.org/kigster/ruby-interview-problems.svg?branch=master[Build Status,link=https://travis-ci.org/kigster/ruby-interview-problems]
-image::https://github.com/kigster/ruby-interview-problems/workflows/Ruby/badge.svg[CI Status]
+image::https://github.com/kigster/ruby-interview-problems/workflows/Ruby/badge.svg[CI Status,link=https://github.com/kigster/ruby-interview-problems/actions?query=workflow%3ARuby]
+image::https://github.com/kigster/ruby-interview-problems/workflows/Rubocop/badge.svg[Rubocop Status,link=https://github.com/kigster/ruby-interview-problems/actions?query=workflow%3ARubocop]
 
 
 == Ruby Interview Questions with Solutions
