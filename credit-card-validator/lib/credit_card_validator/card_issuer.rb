@@ -3,9 +3,9 @@
 module CreditCardValidator
   # This class encapsulates number matching rules about a specific
   # credit card issuer.
-  CardValidator = Struct.new(:issuer, :length, :prefixes) do
+  CardValidator = Struct.new(:issuer, :card_length, :prefixes) do
     def matches?(card)
-      return false unless Array(length).include?(card.size)
+      return false unless Array(card_length).include?(card.size)
 
       prefixes.any? do |prefix|
         if prefix.to_s.include?('-')

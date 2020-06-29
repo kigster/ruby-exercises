@@ -22,7 +22,7 @@ Below are the links to individual problem READMEs.
 * xref:./pharmacy-inventory/README.md[pharmacy-inventory]
 * xref:./role-based-priority-queue/README.md[role-based-priority-queue]
 * xref:./tetris/README.md[tetris]
-* xref:./credit_card_validator/README.adoc[credit_card_validator]
+* xref:./credit-card-validator/README.adoc[credit-card-validator]
 
 == Running All Unit Tests
 
