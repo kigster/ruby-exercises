@@ -1,0 +1,19 @@
+= credit_card_validator
+:toc:
+
+== The Problem
+
+Given the following rules about matching credit card numbers, design
+a working method/class that returns the type of the card based on the
+number:
+
+----
+# ----------------------------------------------------------------------
+# Card                | Prefix                                 | Length
+# ----------------------------------------------------------------------
+# American Express    | 34, 37                                 | 15
+# Diners Club         | 36, 38                                 | 14, 15
+# Visa                | 4                                      | 16
+# Visa Electron       | 4026, 417500, 4508, 4844, 4913, 4917   | 16
+# Discover Card       | 6011, 622126-622925, 644-649, 65       | 16
+----

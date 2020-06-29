@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ip-parser.iml" filepath="$PROJECT_DIR$/.idea/modules/ip-parser.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lru-cache.iml" filepath="$PROJECT_DIR$/.idea/modules/lru-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/node-based.iml" filepath="$PROJECT_DIR$/.idea/modules/node-based.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pharmacy-inventory.iml" filepath="$PROJECT_DIR$/.idea/modules/pharmacy-inventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/role-based-priority-queue.iml" filepath="$PROJECT_DIR$/.idea/modules/role-based-priority-queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sorted-file.iml" filepath="$PROJECT_DIR$/.idea/modules/sorted-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tetris.iml" filepath="$PROJECT_DIR$/.idea/modules/tetris.iml" />

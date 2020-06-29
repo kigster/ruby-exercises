@@ -1,0 +1,35 @@
+= Interview Problems with Solutions
+:toc:
+:doctype: book
+:sectnums:
+:toclevel: 4
+
+image::https://travis-ci.org/kigster/ruby-interview-problems.svg?branch=master[Build Status,link=https://travis-ci.org/kigster/ruby-interview-problems]
+image::https://github.com/kigster/ruby-interview-problems/workflows/Ruby/badge.svg[CI Status]
+
+
+== Ruby Interview Questions with Solutions
+
+This is a collection of various interview questions with full or partial solutions.
+
+Below are the links to individual problem READMEs.
+
+* xref:./connect-four/README.md[connect-four]
+* xref:./currency-exchange/README.md[currency-exchange]
+* xref:./excel-column/README.md[excel-column]
+* xref:./hottest-temp/README.md[hottest-temp]
+* xref:./ip-parser/README.md[ip-parser]
+* xref:./pharmacy-inventory/README.md[pharmacy-inventory]
+* xref:./role-based-priority-queue/README.md[role-based-priority-queue]
+* xref:./tetris/README.md[tetris]
+* xref:./credit_card_validator/README.adoc[credit_card_validator]
+
+== Running All Unit Tests
+
+We provided a convenient Rake task `solutions:specs` (which is also the default) so that you can run, at the top level:
+
+[source,bash]
+----
+bundle install
+bundle exec rake 
+----
