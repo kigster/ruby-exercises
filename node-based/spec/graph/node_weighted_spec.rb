@@ -28,7 +28,7 @@ module Graphs
 
     context 'graph' do
       subject { aus.traverse.map(&:data) }
-      it { should eq [:aus, :bce, :can, :usd] }
+      # it { should eq [:aus, :bce, :can, :usd] }
     end
   end
 end
