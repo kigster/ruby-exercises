@@ -1,11 +1,13 @@
 # frozen_string_literal: true
-
+require 'forwardable'
 class LRUCache
-  attr_accessor :size, :data, :recency
+  extend Forwardable
+  attr_accessor :max_size, :data, :recency
+  def_delegators :data, :size, :each, :each_pair
 
-  def initialize(size = nil)
-    self.size    = size
-    self.data    = {}
+  def initialize(max_size = 10)
+    self.max_size = max_size
+    self.data = {}
     self.recency = {}
   end
 
@@ -18,9 +20,9 @@ class LRUCache
     data[key] = value
     update_recency(key)
 
-    if data.size > size
+    if data.size > max_size
       oldest_timestamp = recency.values.min
-      oldest_key       = recency.keys.find { |k| abs(recency[k] - oldest_timestamp) < 0.001 }
+      oldest_key = recency.keys.find { |k| abs(recency[k] - oldest_timestamp) < 0.001 }
       data.delete(oldest_key)
       recency.delete(oldest_key)
     end

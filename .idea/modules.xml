@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/connect-four.iml" filepath="$PROJECT_DIR$/.idea/modules/connect-four.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/connect-four1.iml" filepath="$PROJECT_DIR$/.idea/modules/connect-four1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/currency-exchange.iml" filepath="$PROJECT_DIR$/.idea/modules/currency-exchange.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/excel-column.iml" filepath="$PROJECT_DIR$/.idea/modules/excel-column.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/interviews.iml" filepath="$PROJECT_DIR$/.idea/interviews.iml" />
