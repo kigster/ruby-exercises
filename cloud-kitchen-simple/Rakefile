@@ -1,0 +1,46 @@
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'bundler/gem_tasks'
+
+require File.expand_path('lib/kitchen', __dir__)
+
+require 'rspec/core/rake_task'
+require 'rubocop/rake_task'
+require 'yard'
+require 'yard-rspec'
+require 'yard-dry-initializer'
+
+def shell(*args)
+  puts "❯ #{args.join(' ').bold.green}"
+  system(args.join(' '))
+end
+
+namespace :generate do
+  desc 'Generate PDF of the README'
+  task :pdf do
+    shell %(bundle exec asciidoctor-pdf README.adoc -a allow-uri-read)
+  end
+end
+
+desc 'Clean generated folders such as pkg, log and coverage'
+task :clean do
+  shell('rm -rf pkg/ coverage/ log/')
+  shell('chmod -v o+r,g+r * */* */*/* */*/*/* */*/*/*/* */*/*/*/*/*')
+  shell('find . -type d -exec chmod o+x,g+x {} \\;')
+end
+
+task build: :clean
+
+::YARD::Rake::YardocTask.new(:doc) do |t|
+  t.files = %w[lib/**/*.rb exe/* spec/**/*.rb - README.adoc LICENSE.adoc PROBLEM.adoc]
+  t.options.unshift('--title', 'Kitchen Order Dispatch Simulation')
+  t.options.unshift('--assets', 'design/**/*.jpg design/**/*.png')
+  t.options.unshift('-m', 'asciidoc')
+  t.after = -> { exec('open doc/index.html') } if RUBY_PLATFORM =~ /darwin/
+end
+
+::RSpec::Core::RakeTask.new(:spec)
+::RuboCop::RakeTask.new(:rubocop)
+
+task default: %i[spec rubocop]

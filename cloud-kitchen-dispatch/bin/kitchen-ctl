@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby -W0
+# frozen_string_literal: true
+
+lib_path = File.dirname(__FILE__) + '/../lib'
+$LOAD_PATH << lib_path if Dir.exist?(lib_path)
+
+# vim: ft=ruby
+
+require 'bundler/setup'
+require 'dry/cli'
+
+require "cloud/kitchens/dispatch"
+require "cloud/kitchens/dispatch/app"
+
+code = ::Cloud::Kitchens::Dispatch::App::Launcher.new(ARGV.dup).execute!
+code ||= 0
+code = 1 unless code.is_a?(Integer)
+exit(code)

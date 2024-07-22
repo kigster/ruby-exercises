@@ -3,28 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/connect-four.iml" filepath="$PROJECT_DIR$/.idea/modules/connect-four.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/connect-four1.iml" filepath="$PROJECT_DIR$/.idea/modules/connect-four1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/connect-four2.iml" filepath="$PROJECT_DIR$/.idea/modules/connect-four2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/credit-card-validator.iml" filepath="$PROJECT_DIR$/.idea/modules/credit-card-validator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/currency-exchange.iml" filepath="$PROJECT_DIR$/.idea/modules/currency-exchange.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/currency-exchange1.iml" filepath="$PROJECT_DIR$/.idea/modules/currency-exchange1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/excel-column.iml" filepath="$PROJECT_DIR$/.idea/modules/excel-column.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/excel-column1.iml" filepath="$PROJECT_DIR$/.idea/modules/excel-column1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/interviews.iml" filepath="$PROJECT_DIR$/.idea/interviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ip-parser.iml" filepath="$PROJECT_DIR$/.idea/modules/ip-parser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ip-parser1.iml" filepath="$PROJECT_DIR$/.idea/modules/ip-parser1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lru-cache.iml" filepath="$PROJECT_DIR$/.idea/modules/lru-cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lru-cache1.iml" filepath="$PROJECT_DIR$/.idea/modules/lru-cache1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/node-based.iml" filepath="$PROJECT_DIR$/.idea/modules/node-based.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/node-based1.iml" filepath="$PROJECT_DIR$/.idea/modules/node-based1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/pharmacy-inventory.iml" filepath="$PROJECT_DIR$/.idea/modules/pharmacy-inventory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pharmacy-inventory1.iml" filepath="$PROJECT_DIR$/.idea/modules/pharmacy-inventory1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/role-based-priority-queue.iml" filepath="$PROJECT_DIR$/.idea/modules/role-based-priority-queue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/role-based-priority-queue1.iml" filepath="$PROJECT_DIR$/.idea/modules/role-based-priority-queue1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sorted-file.iml" filepath="$PROJECT_DIR$/.idea/modules/sorted-file.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sorted-file1.iml" filepath="$PROJECT_DIR$/.idea/modules/sorted-file1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tetris.iml" filepath="$PROJECT_DIR$/.idea/modules/tetris.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tetris1.iml" filepath="$PROJECT_DIR$/.idea/modules/tetris1.iml" />
     </modules>
   </component>
 </project>

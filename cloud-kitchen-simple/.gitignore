@@ -1,0 +1,17 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/pkg/
+/doc/
+/spec/reports/
+/spec/coverage/
+/tmp/
+.idea
+.DS_Store
+.DS_Store?
+._*g
+.Spotlight-V100
+.Trashes
+/lib/simplefeed/providers/serialization/key.rb

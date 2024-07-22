@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# vim: ft=ruby
+# rubocop: disable
+
+require File.expand_path('../lib/kitchen', __dir__)
+
+srand(Time.now.to_i % 39_916_801) # very large prime number
+
+log_debug("detected Ruby Home @ ", RUBY_HOME)
+
+unless $PROGRAM_NAME.end_with?('kitchen') && ARGV.first
+  puts "USAGE: exe/kitchen orders-json-path"
+  exit 0
+end
+
+begin
+  log_debug "starting a kitchen run, ARGV: ", ARGV
+  chef = Kitchen::SousChef.new
+  chef.load_orders_from(ARGV.first).fulfill!
+rescue Interrupt
+  puts
+  puts "CTRL-C Interrupt detected, aborting..."
+  puts
+  exit 0
+rescue StandardError => e
+  log_error(e: e) && exit(1)
+end
