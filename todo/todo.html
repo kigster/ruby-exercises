@@ -1,0 +1,138 @@
+<!--
+
+Tagging
+
+Today we're going to implement a basic tagging feature.
+
+We provide React, Vue, and Angular 1. The preferred JS library is React, though plain JS or another
+library works fine.
+
+Given a list of tags do the following:
+1. Display the tags
+2. Support adding a new tag
+3. Support activating / deactivating tags (toggling)
+4. Support filtering the tags by active, inactive, or all
+5. Support searching tags by name
+
+Note:
+- No styling is required
+
+-->
+
+
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Hello World</title>
+<!-- React.js v16 -->
+<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<!-- ReactDom.js v16 -->
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<!-- qs.js -->
+<script src="https://unpkg.com/@babel/standalone@7.13.12/babel.min.js"></script>
+<!-- qs.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.js"></script>
+<!-- Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- Angular v1.8 -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+</head>
+<script>
+  
+class Item {
+  constructor(title) {
+    this.completed = false;
+    this.title = title;    
+  }   
+}
+  
+class ToDo {
+  constructor(items = []) {
+    this.items = items;
+  }
+  add(item) {
+    if (this.items.includes(item)) {
+      alert("Already have this item");
+    } else {
+      this.items.push(item);
+    }
+  }
+  delete(deleteItem) {
+    this.items = this.items.filter((item, index) => item.title === deleteItem.title); 
+  }
+  reorder(itemToReorder, newOrder) {
+    itemToReorder = this.items.filter((item, index) => item.title === itemToReorder.title)[0]; 
+    if (itemToReorder == undefined) {
+      return
+    }
+    itemToReorderIndex = this.items.indexOf(itemToReorder);
+    this.items.splice(itemToReorderIndex, 1);
+    if (newOrder >= this.items.length) {
+      alert("Can not use order > array length");
+      return
+    }
+    this.items = this.items.filter((item, index) => index < newOrder) 
+      + [itemToReorder] 
+      + this.items.filter((item, index) => index > newOrder)
+  }
+}
+  
+  
+class DOMHelper {
+  constructor(document, todoListElement) {
+    this.todo = new ToDo();
+    this.todo_container = todoListElement;  
+    this.btn_new_todo = document.getElementByClass("todo_add");                                            
+    this.btn_new_todo.addEventListener('click', {
+      handleEvent: function (event) {
+        item = new Item(this.todo_container.first('todo_new').value);
+        this.todo.add(item);
+        this.render();
+      }
+    });  
+    
+    
+  }
+  
+  render() {
+    // clear out the contents of DIV
+    // loop over the todo list 
+    // for each item, create 
+    // - checkbox
+    // - input
+    // - two links edit/delete
+  }
+}
+  
+var domHelper = new DOMHelper(document, document.getElementByClass('todo_list_1'));
+  
+</script>
+  <body>
+    <div class="container">
+      <div class="todo_list_1">
+        <p>Add New Item:</p>
+        <div class="todo_item">
+          <input type="text" class="todo_new" placeholder="New To Do"/>
+          <input type="button" class="todo_add" value="Add Item"/>
+        </div>        
+        <hr/>
+        <p>Existing Todos:</p>
+        <div class="todo_items">                    
+          <div class="todo_item">
+            <input type="checkbox"/>
+            <input type="text" disabled name="todo_id_1" placeholder="My Todo 1"/>
+            <a href="#">[edit]</a>
+            <a href="#">[delete]</a>
+          </div>
+          <div class="todo_item">
+            <input type="checkbox"/>
+            <input type="text" disabled name="todo_id_2" placeholder="My Todo 2"/>
+            <a href="#">[edit]</a>
+            <a href="#">[delete]</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
