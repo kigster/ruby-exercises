@@ -13,7 +13,7 @@
 /spec/coverage/
 /*.enc
 **/.DS_Store
-.ruby-version
+*/.ruby-version
 temp/
 .idea/workspace.xml
 **/.rspec_status
