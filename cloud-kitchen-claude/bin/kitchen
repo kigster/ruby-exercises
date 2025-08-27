@@ -1,0 +1,90 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/kitchen'
+
+def show_usage
+  puts "Kitchen Order Fulfillment Simulation"
+  puts ""
+  puts "Usage: #{$0} [OPTIONS] ORDERS_FILE"
+  puts ""
+  puts "Options:"
+  puts "  -r, --rate RATE    Orders per second (default: 2.0)"
+  puts "  -c, --couriers N   Number of couriers (default: 5)"
+  puts "  -h, --help         Show this help message"
+  puts ""
+  puts "Example:"
+  puts "  #{$0} orders.json"
+  puts "  #{$0} --rate 3.5 orders.json"
+  puts "  #{$0} --couriers 8 --rate 1.5 orders.json"
+end
+
+# Parse command line arguments
+orders_file = nil
+orders_per_second = 2.0
+courier_count = 5
+
+i = 0
+while i < ARGV.length
+  case ARGV[i]
+  when '-r', '--rate'
+    i += 1
+    if i < ARGV.length
+      orders_per_second = ARGV[i].to_f
+      if orders_per_second <= 0
+        puts "Error: Rate must be greater than 0"
+        exit 1
+      end
+    else
+      puts "Error: Rate value required"
+      exit 1
+    end
+  when '-c', '--couriers'
+    i += 1
+    if i < ARGV.length
+      courier_count = ARGV[i].to_i
+      if courier_count <= 0
+        puts "Error: Courier count must be greater than 0"
+        exit 1
+      end
+    else
+      puts "Error: Courier count required"
+      exit 1
+    end
+  when '-h', '--help'
+    show_usage
+    exit 0
+  else
+    if orders_file.nil?
+      orders_file = ARGV[i]
+    else
+      puts "Error: Multiple order files specified"
+      exit 1
+    end
+  end
+  i += 1
+end
+
+if orders_file.nil?
+  puts "Error: Orders file required"
+  puts ""
+  show_usage
+  exit 1
+end
+
+unless File.exist?(orders_file)
+  puts "Error: Orders file '#{orders_file}' not found"
+  exit 1
+end
+
+# Start the kitchen simulation
+begin
+  kitchen = Kitchen.new(courier_count: courier_count)
+  kitchen.start(orders_file: orders_file, orders_per_second: orders_per_second)
+rescue Interrupt
+  puts "\n🛑 Simulation interrupted by user"
+  exit 0
+rescue => e
+  puts "💥 Error: #{e.message}"
+  puts e.backtrace.join("\n") if ENV['DEBUG']
+  exit 1
+end

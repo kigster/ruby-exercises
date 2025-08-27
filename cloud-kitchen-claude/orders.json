@@ -1,0 +1,44 @@
+[
+  {
+    "id": "a8cfcb76-7f24-4420-a5ba-d46dd77bdffd",
+    "name": "Banana Split",
+    "temp": "frozen",
+    "shelfLife": 20,
+    "decayRate": 0.63
+  },
+  {
+    "id": "58e9b5fe-3fde-4a27-8e98-682e58a4a65d",
+    "name": "McFlury",
+    "temp": "frozen",
+    "shelfLife": 375,
+    "decayRate": 0.4
+  },
+  {
+    "id": "2ec069e3-576f-48eb-869f-74a540ef840c",
+    "name": "Acai Bowl",
+    "temp": "cold",
+    "shelfLife": 249,
+    "decayRate": 0.3
+  },
+  {
+    "id": "0ff534a7-a7c4-48ad-b6ec-7632e36af950",
+    "name": "Cheese Pizza",
+    "temp": "hot",
+    "shelfLife": 300,
+    "decayRate": 0.45
+  },
+  {
+    "id": "1e2a4c5b-8d9e-4f0a-b1c2-3d4e5f6a7b8c",
+    "name": "Fried Chicken",
+    "temp": "hot",
+    "shelfLife": 420,
+    "decayRate": 0.25
+  },
+  {
+    "id": "9f8e7d6c-5b4a-3928-1706-504938271234",
+    "name": "Caesar Salad",
+    "temp": "cold",
+    "shelfLife": 180,
+    "decayRate": 0.35
+  }
+]
